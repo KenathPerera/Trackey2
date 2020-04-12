@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionMenu">
+
+
+    <Button
+        android:id="@+id/btnLoadCampusMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1in"
+        android:text="Load Campus Map"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="361dp"
+        android:fontFamily="sans-serif"
+        android:background="#F78383"
+        android:textStyle="normal|bold|italic"/>
+
+    <Button
+        android:id="@+id/btnAddLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.5in"
+        android:text="Add Location"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="361dp"
+        android:fontFamily="sans-serif"
+        android:background="#F78383"
+        android:textStyle="normal|bold|italic"/>
+
+    <Button
+        android:id="@+id/btnAddImageLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0in"
+        android:text="Add Location Image"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="361dp"
+        android:fontFamily="sans-serif"
+        android:background="#F78383"
+        android:textStyle="normal|bold|italic"/>
+
+    <Button
+        android:id="@+id/btnsignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.5in"
+        android:text="Sign Out"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:fontFamily="sans-serif"
+        android:background="#F78383"
+        android:textStyle="normal|bold|italic"/>
+
+
+</RelativeLayout>
